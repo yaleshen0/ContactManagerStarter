@@ -1,0 +1,62 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@* Update the grid to show the primary email address, if none is set use the first one *@
+@using ContactManager.Data
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Primary Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="hoverHighlightTable">
+        @foreach (var contact in Model.Contacts)
+        {
+            var primary_email_list = new List<string>();
+            var sec_primary_email = string.Empty;
+            if (Model.EmailAddresses != null)
+            {
+                foreach(var emailAddress in Model.EmailAddresses)
+                {
+                    if (emailAddress.Type == EmailType.Primary && contact.Id == emailAddress.Contact.Id)
+                    {
+                        primary_email_list.Add(@emailAddress.Email);
+                    }
+                    else if (contact.Id == emailAddress.Contact.Id && sec_primary_email == string.Empty)
+                    {
+                        sec_primary_email = emailAddress.Email;
+                    }
+                }
+            }
+            <tr>
+                <td class="editContact" data-id="@contact.Id">@contact.Title</td>
+                <td class="editContact" data-id="@contact.Id">@contact.FirstName</td>
+                <td class="editContact" data-id="@contact.Id">@contact.LastName</td>
+                <td class="editContact" data-id="@contact.Id">
+                    @if (primary_email_list.Count > 0)
+                    {
+                        foreach(var email in primary_email_list)
+                        {
+                            <span class="badge badge-primary m-l-10">@email</span>
+                        }
+                    }
+                    else if (sec_primary_email != string.Empty)
+                    {
+                        <span class="badge badge-primary m-l-10">@sec_primary_email</span>
+                    }
+                    else
+                    {
+                        <span class="badge badge-danger m-l-10">No email added</span>
+                    }
+                </td>
+
+                <td class="whiteBackground defaultCursor"><a class="redText float-right pointer deleteContact" title="Delete Contact" data-toggle="modal" data-target="#modal-delete" data-id="@contact.Id">X</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,1576 @@
+2024-06-23T19:54:59.3442144-04:00  [INF] Saved 0 entities to in-memory store. (a24023e4)
+2024-06-23T19:54:59.4864372-04:00  [INF] Saved 11 entities to in-memory store. (a24023e4)
+2024-06-23T19:54:59.6112382-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2024-06-23T19:54:59.6113354-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2024-06-23T19:54:59.6129909-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-23T19:54:59.6130916-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-23T19:54:59.6131112-04:00  [INF] Content root path: "C:\Users\yshen\OneDrive\Desktop\SDE Jobs\Saberin\saberinsystems-contact-manager-starter-b901c1e0a0fc\ContactManagerStarter" (cc26f24e)
+2024-06-23T19:55:00.1320416-04:00 0HN4JRVI54GIR:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: max-age=0
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+DNT: 1
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2234366-04:00 0HN4JRVI54GIR:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:54:59 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:00.2375356-04:00 0HN4JRVI54GIR:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/site.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2375357-04:00 0HN4JRVI54GIR:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/css/bootstrap.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2375357-04:00 0HN4JRVI54GIR:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/themify-icons.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2482136-04:00 0HN4JRVI54GIR:00000005 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:15 GMT (999214c4)
+2024-06-23T19:55:00.2482136-04:00 0HN4JRVI54GIR:00000003 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:15 GMT (999214c4)
+2024-06-23T19:55:00.2482137-04:00 0HN4JRVI54GIR:00000007 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:15 GMT (999214c4)
+2024-06-23T19:55:00.2542307-04:00 0HN4JRVI54GIR:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery-ui/jquery-ui.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2542296-04:00 0HN4JRVI54GIR:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery/dist/jquery.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2547044-04:00 0HN4JRVI54GIR:0000000D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.bundle.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2547375-04:00 0HN4JRVI54GIR:00000009 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:27:44 GMT (999214c4)
+2024-06-23T19:55:00.2547370-04:00 0HN4JRVI54GIR:0000000B [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:16 GMT (999214c4)
+2024-06-23T19:55:00.2548798-04:00 0HN4JRVI54GIR:0000000D [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:16 GMT (999214c4)
+2024-06-23T19:55:00.2645018-04:00 0HN4JRVI54GIR:0000000F [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/signalr/dist/browser/signalr.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2645018-04:00 0HN4JRVI54GIR:00000011 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /js/site.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2647786-04:00 0HN4JRVI54GIR:0000000F [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:16 GMT (999214c4)
+2024-06-23T19:55:00.2647786-04:00 0HN4JRVI54GIR:00000011 [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:15 GMT (999214c4)
+2024-06-23T19:55:00.2702523-04:00 0HN4JRVI54GIR:00000013 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery-ui/jquery-ui.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2706212-04:00 0HN4JRVI54GIR:00000013 [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:27:44 GMT (999214c4)
+2024-06-23T19:55:00.2739725-04:00 0HN4JRVI54GIR:00000017 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /js/ContactTable.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2742629-04:00 0HN4JRVI54GIR:00000017 [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:35:37 GMT (999214c4)
+2024-06-23T19:55:00.2902704-04:00 0HN4JRVI54GIR:0000001B [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.2903253-04:00 0HN4JRVI54GIR:0000001D [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /contactHub/negotiate
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: text/plain;charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua: [Redacted]
+DNT: 1
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.3015863-04:00 0HN4JRVI54GIR:0000001D [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Date: Sun, 23 Jun 2024 23:54:59 GMT
+Server: Kestrel
+Content-Length: 316 (999214c4)
+2024-06-23T19:55:00.3127516-04:00 0HN4JRVI54GIR:0000001F [INF] Request:
+Protocol: HTTP/2
+Method: CONNECT
+Scheme: https
+PathBase: 
+Path: /contactHub
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: no-cache
+Origin: [Redacted]
+Pragma: [Redacted]
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits (893de8da)
+2024-06-23T19:55:00.3129095-04:00 0HN4JRVI54GIR:00000021 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:00.3133606-04:00 0HN4JRVI54GIR:00000021 [INF] Response:
+StatusCode: 304
+Content-Type: image/x-icon
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 22:55:15 GMT (999214c4)
+2024-06-23T19:55:00.4091951-04:00 0HN4JRVI54GIR:0000001B [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:54:59 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:51.8934036-04:00 0HN4JRVI54GIR:00000023 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: max-age=0
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+DNT: 1
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:51.9003645-04:00 0HN4JRVI54GIR:00000023 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:55:51 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:51.9144832-04:00 0HN4JRVI54GIR:0000001F [INF] Response:
+StatusCode: 200
+Date: Sun, 23 Jun 2024 23:54:59 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:51.9222976-04:00 0HN4JRVI54GIR:0000002B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /contactHub/negotiate
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: text/plain;charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua: [Redacted]
+DNT: 1
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:51.9222976-04:00 0HN4JRVI54GIR:00000029 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:51.9231138-04:00 0HN4JRVI54GIR:0000002B [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Date: Sun, 23 Jun 2024 23:55:51 GMT
+Server: Kestrel
+Content-Length: 316 (999214c4)
+2024-06-23T19:55:51.9332280-04:00 0HN4JRVI54GIR:0000002D [INF] Request:
+Protocol: HTTP/2
+Method: CONNECT
+Scheme: https
+PathBase: 
+Path: /contactHub
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: no-cache
+Origin: [Redacted]
+Pragma: [Redacted]
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits (893de8da)
+2024-06-23T19:55:51.9494206-04:00 0HN4JRVI54GIR:00000029 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:55:51 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:56.4110400-04:00 0HN4JRVI54GIR:0000002F [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: max-age=0
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+DNT: 1
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:56.4129424-04:00 0HN4JRVI54GIR:0000002F [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:55:55 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:56.4168621-04:00 0HN4JRVI54GIR:0000002D [INF] Response:
+StatusCode: 200
+Date: Sun, 23 Jun 2024 23:55:51 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:56.4433451-04:00 0HN4JRVI54GIR:00000035 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /contactHub/negotiate
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: text/plain;charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua: [Redacted]
+DNT: 1
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:56.4436574-04:00 0HN4JRVI54GIR:00000037 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:56.4437713-04:00 0HN4JRVI54GIR:00000035 [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Date: Sun, 23 Jun 2024 23:55:55 GMT
+Server: Kestrel
+Content-Length: 316 (999214c4)
+2024-06-23T19:55:56.4460087-04:00 0HN4JRVI54GIR:00000037 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:55:55 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:55:56.4573053-04:00 0HN4JRVI54GIR:00000039 [INF] Request:
+Protocol: HTTP/2
+Method: CONNECT
+Scheme: https
+PathBase: 
+Path: /contactHub
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: no-cache
+Origin: [Redacted]
+Pragma: [Redacted]
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits (893de8da)
+2024-06-23T19:55:57.4180809-04:00 0HN4JRVI54GIR:0000003B [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:55:57.4617946-04:00 0HN4JRVI54GIR:0000003B [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:55:57.5149744-04:00 0HN4JRVI54GIR:0000003B [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:55:56 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:56:01.4006348-04:00 0HN4JRVI54GIR:0000003D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery-ui/images/ui-icons_444444_256x240.png
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:56:01.4009538-04:00 0HN4JRVI54GIR:0000003D [INF] Response:
+StatusCode: 304
+Content-Type: image/png
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:27:44 GMT (999214c4)
+2024-06-23T19:56:01.7642931-04:00 0HN4JRVI54GIR:0000003F [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery-ui/images/ui-icons_555555_256x240.png
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:56:01.7646072-04:00 0HN4JRVI54GIR:0000003F [INF] Response:
+StatusCode: 304
+Content-Type: image/png
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:27:44 GMT (999214c4)
+2024-06-23T19:56:36.2664879-04:00 0HN4JRVI54GIR:00000041 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/NewContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:56:36.2721883-04:00 0HN4JRVI54GIR:00000041 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:56:36 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:27.1807947-04:00 0HN4JRVI54GIR:00000043 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Contacts/SaveContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 293
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:27.2828375-04:00 0HN4JRVI54GIR:00000043 [INF] Saved 3 entities to in-memory store. (a24023e4)
+2024-06-23T19:57:27.2836283-04:00 0HN4JRVI54GIR:00000043 [INF] Contact saved successfully (781d3977)
+2024-06-23T19:57:27.2869372-04:00 0HN4JRVI54GIR:00000045 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:27.2880185-04:00 0HN4JRVI54GIR:00000045 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:26 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:27.2911504-04:00 0HN4JRVI54GIR:00000043 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:26 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:31.6534627-04:00 0HN4JRVI54GIR:00000047 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:31.6556061-04:00 0HN4JRVI54GIR:00000047 [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:57:31.6562336-04:00 0HN4JRVI54GIR:00000047 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:31 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:42.0649352-04:00 0HN4JRVI54GIR:00000049 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Contacts/SaveContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 296
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:42.0838352-04:00 0HN4JRVI54GIR:00000049 [INF] Saved 5 entities to in-memory store. (a24023e4)
+2024-06-23T19:57:42.0859843-04:00 0HN4JRVI54GIR:00000049 [INF] Contact saved successfully (781d3977)
+2024-06-23T19:57:42.0870839-04:00 0HN4JRVI54GIR:00000049 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:41 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:42.0891681-04:00 0HN4JRVI54GIR:0000004B [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:42.0900456-04:00 0HN4JRVI54GIR:0000004B [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:41 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:44.4371830-04:00 0HN4JRVI54GIR:0000004D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:44.4384343-04:00 0HN4JRVI54GIR:0000004D [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:57:44.4390227-04:00 0HN4JRVI54GIR:0000004D [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:43 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:47.0088312-04:00 0HN4JRVI54GIR:0000004F [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Contacts/SaveContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 248
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:47.0111631-04:00 0HN4JRVI54GIR:0000004F [INF] Saved 4 entities to in-memory store. (a24023e4)
+2024-06-23T19:57:47.0112939-04:00 0HN4JRVI54GIR:0000004F [INF] Contact saved successfully (781d3977)
+2024-06-23T19:57:47.0116194-04:00 0HN4JRVI54GIR:0000004F [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:46 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:47.0130311-04:00 0HN4JRVI54GIR:00000051 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:47.0136198-04:00 0HN4JRVI54GIR:00000051 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:46 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:57:48.5231378-04:00 0HN4JRVI54GIR:00000053 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:57:48.5245131-04:00 0HN4JRVI54GIR:00000053 [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:57:48.5256725-04:00 0HN4JRVI54GIR:00000053 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:57:47 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:04.1318575-04:00 0HN4JRVI54GIR:00000055 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Contacts/SaveContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 299
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:04.1340387-04:00 0HN4JRVI54GIR:00000055 [INF] Saved 4 entities to in-memory store. (a24023e4)
+2024-06-23T19:58:04.1342333-04:00 0HN4JRVI54GIR:00000055 [INF] Contact saved successfully (781d3977)
+2024-06-23T19:58:04.1348911-04:00 0HN4JRVI54GIR:00000055 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:03 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:04.1370026-04:00 0HN4JRVI54GIR:00000057 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:04.1377730-04:00 0HN4JRVI54GIR:00000057 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:03 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:05.5244062-04:00 0HN4JRVI54GIR:00000059 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:05.5256728-04:00 0HN4JRVI54GIR:00000059 [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:58:05.5261905-04:00 0HN4JRVI54GIR:00000059 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:04 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:17.5810635-04:00 0HN4JRVI54GIR:0000005B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Contacts/SaveContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 348
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:17.5830635-04:00 0HN4JRVI54GIR:0000005B [INF] Saved 6 entities to in-memory store. (a24023e4)
+2024-06-23T19:58:17.5832051-04:00 0HN4JRVI54GIR:0000005B [INF] Contact saved successfully (781d3977)
+2024-06-23T19:58:17.5835704-04:00 0HN4JRVI54GIR:0000005B [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:16 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:17.5848789-04:00 0HN4JRVI54GIR:0000005D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:17.5877797-04:00 0HN4JRVI54GIR:0000005D [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:16 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:20.8361969-04:00 0HN4JRVI54GIR:0000005F [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:20.8373046-04:00 0HN4JRVI54GIR:0000005F [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:58:20.8383035-04:00 0HN4JRVI54GIR:0000005F [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:19 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:23.9854166-04:00 0HN4JRVI54GIR:00000061 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Contacts/SaveContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 248
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:23.9870646-04:00 0HN4JRVI54GIR:00000061 [INF] Saved 5 entities to in-memory store. (a24023e4)
+2024-06-23T19:58:23.9871816-04:00 0HN4JRVI54GIR:00000061 [INF] Contact saved successfully (781d3977)
+2024-06-23T19:58:23.9876000-04:00 0HN4JRVI54GIR:00000061 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:23 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:23.9897415-04:00 0HN4JRVI54GIR:00000063 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:23.9907530-04:00 0HN4JRVI54GIR:00000063 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:23 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:28.5784896-04:00 0HN4JRVI54GIR:00000065 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:28.5801251-04:00 0HN4JRVI54GIR:00000065 [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:58:28.5806906-04:00 0HN4JRVI54GIR:00000065 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:27 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:32.3337882-04:00 0HN4JRVI54GIR:00000067 [INF] Request:
+Protocol: HTTP/2
+Method: DELETE
+Scheme: https
+PathBase: 
+Path: /Contacts/DeleteContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 39
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:32.3532839-04:00 0HN4JRVI54GIR:00000067 [INF] Saved 1 entities to in-memory store. (a24023e4)
+2024-06-23T19:58:32.3534881-04:00 0HN4JRVI54GIR:00000067 [INF] Deleting contact info successfully (51478dd6)
+2024-06-23T19:58:32.3536623-04:00 0HN4JRVI54GIR:00000067 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:31 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:32.3554657-04:00 0HN4JRVI54GIR:00000069 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:32.3564537-04:00 0HN4JRVI54GIR:00000069 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:31 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:33.2007094-04:00 0HN4JRVI54GIR:0000006B [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:33.2019025-04:00 0HN4JRVI54GIR:0000006B [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:58:33.2027622-04:00 0HN4JRVI54GIR:0000006B [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:32 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:38.4924468-04:00 0HN4JRVI54GIR:0000006D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/NewContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:38.4933612-04:00 0HN4JRVI54GIR:0000006D [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:37 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:45.5283553-04:00 0HN4JRVI54GIR:0000006F [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+DNT: 1
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:45.5305427-04:00 0HN4JRVI54GIR:0000006F [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:45 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:45.5378356-04:00 0HN4JRVI54GIR:00000039 [INF] Response:
+StatusCode: 200
+Date: Sun, 23 Jun 2024 23:55:55 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:45.5487914-04:00 0HN4JRVI54GIR:00000071 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery-ui/jquery-ui.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:45.5491647-04:00 0HN4JRVI54GIR:00000071 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:27:44 GMT (999214c4)
+2024-06-23T19:58:45.5498257-04:00 0HN4JRVI54GIR:00000075 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/jquery-ui/jquery-ui.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:45.5500838-04:00 0HN4JRVI54GIR:00000075 [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:27:44 GMT (999214c4)
+2024-06-23T19:58:45.5501144-04:00 0HN4JRVI54GIR:00000077 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /js/ContactTable.js
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:45.5502922-04:00 0HN4JRVI54GIR:00000077 [INF] Response:
+StatusCode: 304
+Content-Type: text/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 23 Jun 2024 23:35:37 GMT (999214c4)
+2024-06-23T19:58:45.5968777-04:00 0HN4JRVI54GIR:0000007B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /contactHub/negotiate
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: text/plain;charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua: [Redacted]
+DNT: 1
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:45.5968751-04:00 0HN4JRVI54GIR:0000007D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/GetContacts
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:45.5971736-04:00 0HN4JRVI54GIR:0000007B [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Date: Sun, 23 Jun 2024 23:58:45 GMT
+Server: Kestrel
+Content-Length: 316 (999214c4)
+2024-06-23T19:58:45.5986272-04:00 0HN4JRVI54GIR:0000007D [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:45 GMT
+Server: Kestrel (999214c4)
+2024-06-23T19:58:45.6023299-04:00 0HN4JRVI54GIR:0000007F [INF] Request:
+Protocol: HTTP/2
+Method: CONNECT
+Scheme: https
+PathBase: 
+Path: /contactHub
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cache-Control: no-cache
+Origin: [Redacted]
+Pragma: [Redacted]
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits (893de8da)
+2024-06-23T19:58:46.9909414-04:00 0HN4JRVI54GIR:00000081 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Contacts/EditContact
+Accept: */*
+Host: localhost:7276
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Content-Type: application/json; charset=utf-8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (893de8da)
+2024-06-23T19:58:46.9919879-04:00 0HN4JRVI54GIR:00000081 [INF] Contact edited (3b8ff9e1)
+2024-06-23T19:58:46.9930010-04:00 0HN4JRVI54GIR:00000081 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sun, 23 Jun 2024 23:58:46 GMT
+Server: Kestrel (999214c4)
